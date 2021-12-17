@@ -1,0 +1,29 @@
+--Variables
+
+right = script.Parent.Right.SurfaceGui.MainPicture
+left = script.Parent.Left.SurfaceGui.MainPicture
+
+right.Visible = false -- Initially puts both of them invis
+left.Visible = false
+
+
+
+
+left.Visible = true  --Switches between left and right
+wait(70)
+left.Visible = false
+right.Visible = true
+wait(20)
+right.Visible = false
+left.Visible = true
+wait(35)
+left.Visible = false
+right.Visible = true
+wait(25)
+right.Visible = false
+left.Visible = true
+wait(33)
+left.Visible = false
+right.Visible = true
+
+
